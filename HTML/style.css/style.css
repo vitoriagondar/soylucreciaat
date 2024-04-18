@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap')
+
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif
+    margin: 0;
+    padding: 15px;;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+    background-color: #fcabc6; 
+    color: #000000;
+    padding: 15px;
+    text-align: center;
+}
+.presentacion {
+width:100px
+border-radius=55%
+}
+
+img {
+    width: 100px;
+border-radius: 40%;
+
+}
+h1{ font-size: 45px;
+color: #eb1656;
+font-family: "Lora", serif;
+text-align: center;
+background-color: #f3dae2;
+}
+
+h2{ font-size: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+header ul {
+    display: flex; /* Hacemos que la lista sea un flex container */
+    flex-direction: row;
+    justify-content: center; /* Centramos los elementos en el eje horizontal */
+    list-style-type: none; /* Quitamos los puntos de la lista */
+    padding: 0;
+
+}
+
+li {
+    margin-right: 30px; /* Espacio entre los elementos de la lista */
+  line-height: 1.5; /* Ajusta el valor según tus preferencias */
+  margin-bottom: 10px; 
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+
+
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.contenedor{
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+
+}
+
+.caja img{
+    width: 55%;
+}
+p{
+    font-size: 180%;
+    font-family: "Playfair Display", serif;
+    max-width: 1100px; 
+    margin: auto; 
+    padding:20px
+}
+h3{
+    font-size: 25px;
+    color: #eb1656;
+    text-align: center;
+    font-family: "Lora", serif;
+    background-color: #f3dae2;
+}
+
+h4{
+    font-size: 25px;
+    color: #eb1656;
+    text-align: center;
+    font-family:"Lora", serif;
+}
+
+.imagenespollo{
+    display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: center;
+align-items: center;
+margin-right: 30px; 
+margin-bottom: 10px; 
+font-size: 20px;
+}
+
+.imagenesdelucre{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+
+}
+
+h5 {
+
+    font-size: 25px;
+    color: #eb1656;
+    text-align: center;
+    font-family:"Lora", serif;
+    background-color: rgb(255, 255, 208);
+
+}
+
+.talleres{
+  
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+h6{
+    font-size: 45px;
+  color: #eb1656;
+    font-family: "Lora", serif;
+    text-align: center;
+    background-color: antiquewhite;
+    
+    }
